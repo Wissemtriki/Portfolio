@@ -694,7 +694,7 @@ export const achievements = [
     date: "2023 - 2024",
     description:
       "Earned the Certificat Ing Enim after serving as Vice-President of the Aeronautics Club at the University of Engineering of Monastir, Tunisia, recognizing leadership and contributions to student aerospace initiatives.",
-    image:"https://image2url.com/images/1763814121421-280936d5-90ba-4d8c-ab6a-52ab6939f1ed.png",
+    image:"https://image2url.com/images/1763813271353-b1cea4f1-cf9a-468a-8c7f-65c7b9a5643f.png",
     tags: ["CLUBS","ING ENIM",],
     // category: "web app",
     github: "https://github.com/Wissemtriki/Achievements/blob/main/Certificat%20ing%20enim/Certificat%20ing%20enim-1.png",
