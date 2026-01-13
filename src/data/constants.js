@@ -1,3 +1,4 @@
+
 export const Bio = {
   name: "Wissem Edine Triki",
   roles: [
@@ -16,12 +17,12 @@ export const Bio = {
   scopus: "https://www.scopus.com/authid/detail.uri?authorId=59216245200",
   gdev: "https://g.dev/gabinroy",
   resume:
-    "https://pdflink.to/7ff844c2/",
+    "https://pdflink.to/63568596/",
   linkedin: "https://www.linkedin.com/in/wissem-edine-triki-84478b211/",
   twitter: "https://twitter.com/Godwin_Abin",
-  aud1: "https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/Art%20of%20silence%20by%20uniq%20(without%20Synth%20).mp3?alt=media&token=15fc54e8-5655-4428-ab15-2cfff9161cd2",
-  aud2: "https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/Dark%20Piano%20Trap.mp3?alt=media&token=c41ce7ee-bc66-4bc1-a588-39861f1639ee",
-  bg:"https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/bg.mp3?alt=media&token=2708879e-f317-4e85-8922-b84d3e8ac590",
+  aud1: "/audio/aud1.mp3",
+  aud2: "/audio/aud2.mp3",
+  bg:"/audio/bg.mp3",
   logo:"https://firebasestorage.googleapis.com/v0/b/gabinroy.appspot.com/o/favicon1.png?alt=media&token=1aa0b12b-b238-4ea4-9c7f-03bc23e07a21",
   // insta: "https://www.instagram.com/",
   // facebook: "https://www.facebook.com/",
@@ -33,7 +34,7 @@ export const skills = [
     skills: [
       {
         name: "Altium",
-        image: "https://jb-team.com/sites/default/files/styles/blog_750_/public/JB_Altium_LOGO.png?itok=my0lP31d",
+        image: "https://image2url.com/r2/default/images/1768335333688-f6cf9228-f6f9-4e01-aed9-3a3f43ec300a.png",
       },
       {
         name: "Kicad",
@@ -325,7 +326,7 @@ export const skills = [
       },
       {
         name: "FPGA Xilinx Spartan 6",
-        image: "https://www.en.alinx.com/upload/common/filesystem/fp/20240116/92240dc441b814a18924bb225c7b9bdb.jpg",
+        image: "https://image2url.com/r2/default/images/1768335740772-b93d73f0-8f41-43f5-9535-89ec38b7e93b.jpg",
       },
       {
         name: "FPGA Xilinx zynq-7000",
@@ -564,6 +565,37 @@ export const projects = [
     github: "https://github.com/Wissemtriki/PFE-Esprit-HE-EV-Charger/tree/main",
     webapp: "https://image2url.com/images/1763808883230-00b4c1ef-8b8c-44f0-bd93-e396e4ba3787.png",
   },
+    {
+    id: 6,
+    title: "NodeMCU ESP8266 Multipurpose IoT PCB Board",
+    date: "2025",
+    description:
+      "Multipurpose IoT PCB board designed with Altium Designer and based on the ESP8266 (NodeMCU). The board is optimized for rapid IoT prototyping and smart system development, featuring regulated power supply, GPIO/UART accessibility, and a compact reusable hardware design suitable for embedded and smart home applications.",
+    image:
+      "https://image2url.com/r2/default/images/1768326064975-b6a9c646-a88f-4a34-b428-e97da277713d.jpeg",
+    tags: [
+      "Altium Designer, ESP8266, NodeMCU, IoT, PCB Design, Embedded Systems, Power Regulation, UART, GPIO, Hardware Prototyping",
+    ],
+    category: "Embedded Systems & PCB Design",
+    github: "https://github.com/Wissemtriki/NodeMCU-ESP8266-PCB",
+    webapp: "",
+  },
+    {
+      id: 7,
+      title: "Smartix Home – IoT Smart Home Automation System",
+      date: "2025",
+      description:
+        "End-to-end smart home automation system combining custom PCB hardware designed in Altium Designer with ESP8266 microcontrollers and PZEM004T energy monitoring. Includes a Flutter mobile application with Firebase backend for real-time device control, power monitoring, and cloud-based data synchronization in a scalable IoT architecture.",
+      image:
+        "https://image2url.com/r2/default/images/1768326010637-6cd1f280-b7f5-4cb5-a710-0453a82ab210.jpeg",
+      tags: [
+        "Altium Designer, ESP8266, PZEM004T, IoT, Smart Home, Flutter, Firebase, Embedded C, Arduino IDE, PCB Design, Energy Monitoring",
+      ],
+      category: "IoT Systems & Embedded Software & Mobile App",
+      github: "https://github.com/Wissemtriki/Smartix-Home",
+      webapp: "",
+    },
+
 ];
 
 export const achievements = [
@@ -694,7 +726,7 @@ export const achievements = [
     date: "2023 - 2024",
     description:
       "Earned the Certificat Ing Enim after serving as Vice-President of the Aeronautics Club at the University of Engineering of Monastir, Tunisia, recognizing leadership and contributions to student aerospace initiatives.",
-    image:"https://image2url.com/images/1763813271353-b1cea4f1-cf9a-468a-8c7f-65c7b9a5643f.png",
+    image:"https://image2url.com/r2/default/images/1768326304977-6dbc3c94-839b-4729-a8df-1fa078363f4c.png",
     tags: ["CLUBS","ING ENIM",],
     // category: "web app",
     github: "https://github.com/Wissemtriki/Achievements/blob/main/Certificat%20ing%20enim/Certificat%20ing%20enim-1.png",

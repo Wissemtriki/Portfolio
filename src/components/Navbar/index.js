@@ -7,6 +7,7 @@ import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants'
 // FaPlay , FaPause => FaVolumeUp, FaVolumeMute 
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const theme = useTheme()
@@ -29,7 +30,7 @@ const Navbar = () => {
       <NavbarContainer>
         <NavLogo to='/'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <img src={Bio.logo} width="25px" height="25px" alt='Angular Logo'></img> <Span>Portfolio</Span>
+            <img src="https://image2url.com/r2/default/images/1768326896742-77306993-c5bc-493e-8b74-90396a3093d7.png" width="25px" height="25px" alt='Wissem Logo'></img> <Span>Portfolio</Span>
           </a>
         </NavLogo>
         <MobileIcon>
@@ -82,7 +83,7 @@ const Navbar = () => {
           </MobileMenu>
         }
       </NavbarContainer>
-      
+             
       {/* Add the audio element */}
       <audio ref={audioRef} src={Bio.aud2} autoplay loop />
     </Nav>
